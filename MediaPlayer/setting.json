@@ -1,0 +1,128 @@
+{
+  "globalSetting": {
+    "weekOnOff": [ "off", "on", "on", "on", "on", "on", "on" ],
+    "offDay": [ "0101", "0606", "0408", "1225" ]
+  },
+  "schedules": [
+    {
+      "weekOnOff": [ "off", "on", "on", "on", "on", "on", "on" ],
+      "offDay": [ "0101", "0606", "0408", "1225" ],
+      "start": "0900",
+      "end": "1200",
+      "imageDuration":  "5000",
+      "layouts": [
+        {
+          "id": 0,
+          "top": 0,
+          "left": 0,
+          "width": 300,
+          "height": 500,
+          "contents": [
+            {
+              "fileName": "a1.jpg",
+              "fileSize": 223
+            },
+            {
+              "fileName": "a2.jpg",
+              "fileSize": 1223
+            },
+            {
+              "fileName": "a3.mp4",
+              "fileSize": 1223
+            },
+            {
+              "fileName": "a4.mp4",
+              "fileSize": 1223
+            }
+          ], 
+          "template": "citi_main"
+        },
+        {
+          "id": 1,
+          "top": 300,
+          "left": 500,
+          "width": 200,
+          "height": 200,
+          "contents": [
+            {
+              "fileName": "b1.jpg",
+              "fileSize": 223
+            },
+            {
+              "fileName": "b2.jpg",
+              "fileSize": 1223
+            },
+            {
+              "fileName": "b3.mp4",
+              "fileSize": 1223
+            },
+            {
+              "fileName": "b4.mp4",
+              "fileSize": 1223
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekOnOff": [ "off", "on", "on", "on", "on", "on", "on" ],
+      "offDay": [ "0101", "0606", "0408", "1225" ],
+      "start": "1200",
+      "end": "1800",
+      "layouts": [
+        {
+          "id": 0,
+          "top": 0,
+          "left": 0,
+          "width": 300,
+          "height": 500,
+          "contents": [
+            {
+              "fileName": "a1.jpg",
+              "fileSize": 223
+            },
+            {
+              "fileName": "a2.jpg",
+              "fileSize": 1223
+            },
+            {
+              "fileName": "a3.mp4",
+              "fileSize": 1223
+            },
+            {
+              "fileName": "a4.mp4",
+              "fileSize": 1223
+            }
+          ],
+
+          "template": "citi_main"
+        },
+        {
+          "id": 1,
+          "top": 300,
+          "left": 500,
+          "width": 200,
+          "height": 200,
+          "contents": [
+            {
+              "fileName": "b1.jpg",
+              "fileSize": 223
+            },
+            {
+              "fileName": "b2.jpg",
+              "fileSize": 1223
+            },
+            {
+              "fileName": "b3.mp4",
+              "fileSize": 1223
+            },
+            {
+              "fileName": "b4.mp4",
+              "fileSize": 1223
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
